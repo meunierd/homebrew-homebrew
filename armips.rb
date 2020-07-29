@@ -1,8 +1,8 @@
 class Armips < Formula
   desc "An assembler for various ARM and MIPS platforms. Builds available at http://buildbot.orphis.net/armips/"
   homepage "https://github.com/Kingcom/armips/"
-  url "https://github.com/Kingcom/armips/archive/v0.10.0.tar.gz"
-  sha256 "73111ea551237dde5ff214c4fcbf6b87ef0b74906b404235b3eb0baa6d6c20b6"
+  url "https://github.com/Kingcom/armips/archive/v0.11.0.tar.gz"
+  sha256 "c94e29dfda3bdf853590d825562b9c73a3d8e8e995555e021c6b2a6451572681"
   head "https://github.com/Kingcom/armips.git"
 
   depends_on "cmake" => :build
