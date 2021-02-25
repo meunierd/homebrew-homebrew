@@ -7,6 +7,7 @@ class Mkpsxiso < Formula
   head "https://github.com/meunierd/mkpsxiso.git"
 
   depends_on "tinyxml2"
+  depends_on "pkgconfig" => :build
   depends_on "cmake" => :build
 
   def install
